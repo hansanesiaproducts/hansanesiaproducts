@@ -1,0 +1,28 @@
+.collectionsContainer {
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 50px;
+}
+.titleContainer {
+  padding: 20px;
+}
+.titleContainer h1 {
+  color: var(--gray);
+  position: relative;
+}
+.titleContainer h1::after {
+  position: absolute;
+  display: block;
+  text-align: end;
+  content: "";
+  margin-top: 5px;
+  left: 0;
+  width: 100px;
+  height: 1px;
+  border-bottom: 5px solid #ffedad;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

@@ -1,8 +1,9 @@
+import ContactMain from "./components/ContactMain/ContactMain";
 import classes from "./ContactPage.module.css";
 const ContactPage = () => {
   return (
     <div>
-      <section>Contact</section>
+      <ContactMain />
     </div>
   );
 };

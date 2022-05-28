@@ -1,0 +1,33 @@
+.missonContainer {
+  margin-top: 100px;
+  display: flex;
+  color: var(--gray);
+  background-color: var(--cream);
+}
+.imageContainer {
+  width: 50%;
+}
+.imageContainer img {
+  width: 100%;
+}
+.contentContainer {
+  width: 50%;
+  padding: 50px 200px;
+}
+
+.contentContainer h1 {
+  color: var(--gray);
+  margin-bottom: 30px;
+  position: relative;
+}
+.contentContainer h1::after {
+  position: absolute;
+  display: block;
+  text-align: end;
+  content: "";
+  margin-top: 5px;
+  left: 0;
+  width: 50px;
+  height: 1px;
+  border-bottom: 5px solid #ffedad;
+}

@@ -5,20 +5,32 @@ import facebookIcon from "../../assets/icons/facebook.png";
 import instagramIcon from "../../assets/icons/instagram.png";
 import whatsappIcon from "../../assets/icons/whatsapp.png";
 const Footer = () => {
+  // Splide JS
   return (
-    <footer>
-      <div>
-        <div>
+    <footer className={classes.footerContainer}>
+      <div className={classes.topFooterContainer}>
+        <div className={classes.leftFooterContainer}>
           <h3>Quick Links</h3>
           <div>
-            <div>
+            <div className={classes.quickLinkContainer}>
               <Link to={""}>Home</Link>
               <Link to={"/about"}>About</Link>
               <Link to={""}>Product</Link>
               <Link to={"/contact"}>Contact</Link>
             </div>
-            <div>
+            <div className={classes.addressContainer}>
               <p>Hansanesia Products</p>
+              <address>
+                Jalan Raya Kebon Jeruk <br />
+                Jakarta 11530 <br />
+                <br />
+                Email:{" "}
+                <a href="mailto:hansanesia@gmail.com">
+                  hansanesia@gmail.com
+                </a>{" "}
+                <br />
+                Phone: <a href="tel:0812-3451-2411">+(62) 812-3451-2411</a>
+              </address>
             </div>
           </div>
         </div>
@@ -28,24 +40,25 @@ const Footer = () => {
             <Link to={""}>Smith Collection</Link>
           </div>
         </div>
-        {/* <div></div> */}
       </div>
-      <div>
-        <div>
-          <h3>
-            Copyright &copy; 2022 HANSANESIA PRODUCTS, All rights Reserved.
-          </h3>
-        </div>
-        <div>
-          <a href="">
-            <img src={facebookIcon} alt="ERR" />
-          </a>
-          <a href="">
-            <img src={instagramIcon} alt="ERR" />
-          </a>
-          <a href="">
-            <img src={whatsappIcon} alt="ERR" />
-          </a>
+      <div className={classes.bottomFooterContainer}>
+        <div className={classes.bottomInsideFooterContainer}>
+          <div className={classes.copyrightContainer}>
+            <h3>
+              Copyright &copy; 2022 HANSANESIA PRODUCTS, All rights Reserved.
+            </h3>
+          </div>
+          <div className={classes.socialsContainer}>
+            <a href="dw">
+              <img src={facebookIcon} alt="ERR" />
+            </a>
+            <a href="dw">
+              <img src={instagramIcon} alt="ERR" />
+            </a>
+            <a href="dw">
+              <img src={whatsappIcon} alt="ERR" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>

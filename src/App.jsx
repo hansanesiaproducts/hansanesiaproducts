@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <div className={classes.headerMargin}></div>
       <Switch>
         <Route path={"/about"}>
           <AboutPage />
