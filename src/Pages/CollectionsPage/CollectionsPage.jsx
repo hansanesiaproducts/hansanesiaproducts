@@ -2,9 +2,11 @@ import { useParams } from "react-router-dom";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import { useState, useEffect } from "react";
 import classes from "./CollectionsPage.module.css";
+import ProductCardList from "./components/ProductCardList/ProductCardList";
 
 const CollectionsPage = () => {
   const { name } = useParams();
+  const [productsData, setProductsData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const history = useHistory();
   useEffect(() => {
@@ -14,7 +16,7 @@ const CollectionsPage = () => {
     setIsLoading(true);
     try {
       let response = await require(`../../data/${name}.json`);
-      // console.log(response);
+      setProductsData(response);
     } catch (e) {
       return history.push("/");
     }
@@ -36,9 +38,11 @@ const CollectionsPage = () => {
               alt="ERR"
             />
           </section>
-          <section>
-            <h1 className={classes.mainTitle}>Product Sets</h1>
-            <div></div>
+          <section className={classes.ProductCardListSection}>
+            <div className={classes.ProductCardListContainer}>
+              <h1 className={classes.mainTitle}>Product Sets</h1>
+              <ProductCardList data={productsData} collection={name} />
+            </div>
           </section>
         </div>
       )}

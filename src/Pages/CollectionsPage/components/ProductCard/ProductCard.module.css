@@ -1,0 +1,47 @@
+.productCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 31%;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+.productCard img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  user-select: none;
+}
+
+.imageContainer::after {
+  content: "";
+  z-index: 50;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+.imageContainer:hover::after {
+  content: "View";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: -50%;
+  background-color: rgba(87, 87, 87, 0.519);
+}
+.productCard p {
+  margin: 10px;
+  color: var(--gray);
+}

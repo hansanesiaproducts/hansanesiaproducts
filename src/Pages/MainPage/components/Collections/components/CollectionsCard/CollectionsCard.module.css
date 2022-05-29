@@ -3,10 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 460px;
+  width: 33%;
+
   margin: 20px 10px;
 }
-.cardContainer picture {
+.cardContainer img {
   height: 100%;
   width: 100%;
   object-fit: cover;

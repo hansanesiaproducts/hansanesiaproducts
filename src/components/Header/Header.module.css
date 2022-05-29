@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 100;
   width: 100%;
   background-color: white;
   transition: all 0.3s;
@@ -25,7 +25,7 @@
   width: 150px;
 }
 
-.linkContainer{
+.linkContainer {
   max-width: 400px;
   width: 500px;
   /* cursor: pointer; */
@@ -43,7 +43,7 @@
 }
 
 .linkContainer ul li a {
-  letter-spacing: .7px;
+  letter-spacing: 0.7px;
   font-size: 16px;
   padding: 0 18px;
   color: black;

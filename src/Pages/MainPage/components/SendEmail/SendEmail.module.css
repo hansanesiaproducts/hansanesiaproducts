@@ -16,11 +16,11 @@
   color: var(--gray);
 }
 
-.sendEmailContainer h1{
+.sendEmailContainer h1 {
   margin-bottom: 15px;
 }
 
-.sendEmailContainer h4{
+.sendEmailContainer h4 {
   margin-bottom: 10px;
 }
 
@@ -38,6 +38,7 @@
   height: 50px;
   padding: 10px 20px;
   color: var(--gray);
+  font-size: 1.2rem;
 }
 
 .emailInputContainer input:focus {
@@ -47,7 +48,6 @@
 .emailInputContainer input::placeholder {
   color: rgba(54, 54, 54, 0.25);
   font-size: 1.2rem;
-
 }
 
 .emailInputContainer button {
