@@ -2,6 +2,7 @@ import classes from "./ProductCardList.module.css";
 import ProductCard from "../ProductCard/ProductCard";
 const ProductCardList = (props) => {
   const { data, collection } = props;
+  console.log(data);
   return (
     <div className={classes.cardContainer}>
       {data.map((item) => (
