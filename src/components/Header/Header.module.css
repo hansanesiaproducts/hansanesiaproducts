@@ -4,35 +4,51 @@
   z-index: 2;
   width: 100%;
   background-color: white;
-  transition: all 0.4s;
+  transition: all 0.3s;
+  height: 100px;
 }
+
 .headerContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
   max-width: 1440px;
-
+  height: 100px;
   margin: auto;
 }
+
 .logoContainer {
 }
+
 .logoContainer img {
-  width: 200px;
+  width: 150px;
 }
+
+.linkContainer{
+  max-width: 400px;
+  width: 500px;
+  /* cursor: pointer; */
+}
+
 .linkContainer ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
+
 .linkContainer ul li {
   list-style: none;
 }
+
 .linkContainer ul li a {
-  padding: 0 10px;
+  letter-spacing: .7px;
+  font-size: 16px;
+  padding: 0 18px;
   color: black;
-  text-decoration: none;
 }
+
 .active {
   color: red !important;
 }

@@ -19,7 +19,7 @@ const Footer = () => {
               <Link to={"/contact"}>Contact</Link>
             </div>
             <div className={classes.addressContainer}>
-              <p>Hansanesia Products</p>
+              <h5>Hansanesia Products</h5>
               <address>
                 Jalan Raya Kebon Jeruk <br />
                 Jakarta 11530 <br />
@@ -44,19 +44,19 @@ const Footer = () => {
       <div className={classes.bottomFooterContainer}>
         <div className={classes.bottomInsideFooterContainer}>
           <div className={classes.copyrightContainer}>
-            <h3>
+            <h5>
               Copyright &copy; 2022 HANSANESIA PRODUCTS, All rights Reserved.
-            </h3>
+            </h5>
           </div>
           <div className={classes.socialsContainer}>
-            <a href="dw">
-              <img src={facebookIcon} alt="ERR" />
-            </a>
             <a href="dw">
               <img src={instagramIcon} alt="ERR" />
             </a>
             <a href="dw">
               <img src={whatsappIcon} alt="ERR" />
+            </a>
+            <a href="dw">
+              <img src={facebookIcon} alt="ERR" />
             </a>
           </div>
         </div>
