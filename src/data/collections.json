@@ -1,0 +1,12 @@
+[
+    {
+        "id":"c1",
+        "name":"Celtic Collection",
+        "value": "celtic"
+    },
+    {
+        "id":"c2",
+        "name":"NotCeltic Collection",
+        "value": "notceltic"
+    }
+]

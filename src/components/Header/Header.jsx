@@ -32,17 +32,17 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to={"about"} activeClassName={classes.active}>
+              <NavLink to={"/about"} activeClassName={classes.active}>
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to={"product"} activeClassName={classes.active}>
+              <NavLink to={"/product"} activeClassName={classes.active}>
                 Product
               </NavLink>
             </li>
             <li>
-              <NavLink to={"contact"} activeClassName={classes.active}>
+              <NavLink to={"/contact"} activeClassName={classes.active}>
                 Contact
               </NavLink>
             </li>

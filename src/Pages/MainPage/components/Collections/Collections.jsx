@@ -1,6 +1,6 @@
 import classes from "./Collections.module.css";
 import CollectionsCard from "./components/CollectionsCard/CollectionsCard";
-import tes from "./colectiontes.jpg";
+import collectionData from "../../../../data/collections.json";
 const Collections = () => {
   return (
     <section className={classes.collectionsContainer}>
@@ -8,26 +8,17 @@ const Collections = () => {
         <h1>Collections</h1>
       </div>
       <div className={classes.cardContainer}>
-        <CollectionsCard
-          linkURL={""}
-          image={tes}
-          title={"celctic Collection"}
-        />
-        <CollectionsCard
-          linkURL={""}
-          image={tes}
-          title={"celctic Collection"}
-        />
-        <CollectionsCard
-          linkURL={""}
-          image={tes}
-          title={"celctic Collection"}
-        />
-        <CollectionsCard
-          linkURL={""}
-          image={tes}
-          title={"celctic Collection"}
-        />
+        {collectionData.map((collection) => (
+          <CollectionsCard
+            key={collection.id}
+            linkURL={`${collection.value}`}
+            image={
+              require(`../../../../assets/collections/${collection.value}.jpg`)
+                .default
+            }
+            title={collection.name}
+          />
+        ))}
       </div>
     </section>
   );
