@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
 import companyLogo from "../../assets/company/companyLogo.png";
 import classes from "./Header.module.css";
+
 const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", handlePageScroll);

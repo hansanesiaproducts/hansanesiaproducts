@@ -2,24 +2,36 @@
   background-image: url("../../../../assets/pictures/sofa.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
+  margin-top: 50px;
 }
+
 .sendEmailContainer {
-  max-width: 1440px;
+  max-width: 1240px;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 10px;
+  padding: 100px 100px;
   color: var(--gray);
 }
+
+.sendEmailContainer h1{
+  margin-bottom: 15px;
+}
+
+.sendEmailContainer h4{
+  margin-bottom: 10px;
+}
+
 .emailInputContainer {
   width: 100%;
   display: flex;
   background-color: #6b6b6b;
-  padding: 20px 50px;
-  margin-top: 30px;
+  padding: 20px 30px;
+  margin-top: 20px;
 }
+
 .emailInputContainer input {
   margin-right: 10px;
   width: 80%;
@@ -27,13 +39,20 @@
   padding: 10px 20px;
   color: var(--gray);
 }
+
 .emailInputContainer input:focus {
   outline: none;
 }
+
 .emailInputContainer input::placeholder {
   color: rgba(54, 54, 54, 0.25);
+  font-size: 1.2rem;
+
 }
+
 .emailInputContainer button {
+  font-size: 1.2rem;
+  /* font-weight: 600; */
   width: 20%;
   color: var(--white);
   padding: 0.5em 1em;

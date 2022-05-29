@@ -12,6 +12,12 @@ const AboutMain = () => {
               tempora aliquam omnis laudantium, quibusdam, sapiente maxime eum
               quisquam vero, quidem molestias libero expedita placeat. Incidunt
               quisquam tempore quos officiis dolor?
+              <br />
+              <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              tempora aliquam omnis laudantium, quibusdam, sapiente maxime eum
+              quisquam vero, quidem molestias libero expedita placeat. Incidunt
+              quisquam tempore quos officiis dolor?
             </p>
           </div>
           <div className={classes.imageContainer}>
