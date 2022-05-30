@@ -1,0 +1,21 @@
+.sideButtonContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.buttonContainer {
+  margin-top: 15px;
+  border-radius: 50%;
+}
+.whatsapp img {
+  width: 80px;
+  height: 80px;
+  padding: 15px;
+  background-color: #00d16b;
+  border-radius: 50%;
+}
