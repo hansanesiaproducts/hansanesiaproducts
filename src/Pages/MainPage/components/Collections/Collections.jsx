@@ -12,10 +12,7 @@ const Collections = () => {
           <CollectionsCard
             key={collection.id}
             linkURL={`${collection.value}`}
-            image={
-              require(`../../../../assets/collections/${collection.value}.jpg`)
-                .default
-            }
+            image={collection.value}
             title={collection.name}
           />
         ))}

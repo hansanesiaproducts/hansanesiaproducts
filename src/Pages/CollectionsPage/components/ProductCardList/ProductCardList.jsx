@@ -1,12 +1,17 @@
 import classes from "./ProductCardList.module.css";
-import ProductCard from "../ProductCard/ProductCard";
+import CollectionSetCard from "../CollectionSetCard/CollectionSetCard";
 const ProductCardList = (props) => {
   const { data, collection } = props;
-  console.log(data);
   return (
     <div className={classes.cardContainer}>
       {data.map((item) => (
-        <ProductCard data={item} collection={collection} />
+        <CollectionSetCard
+          key={item.id}
+          linkURL={`${item.value}`}
+          image={item.value}
+          title={item.name}
+          collection={collection}
+        />
       ))}
     </div>
   );

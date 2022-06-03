@@ -20,7 +20,13 @@
 
 .logoContainer {
 }
-
+.logoImageContainer {
+  display: flex;
+  align-items: center;
+}
+.logoImageContainer img:first-child {
+  margin-right: 15px;
+}
 .logoContainer img {
   width: 150px;
 }

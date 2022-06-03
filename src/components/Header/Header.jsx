@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
 import companyLogo from "../../assets/company/companyLogo.png";
+import companyLogo2 from "../../assets/company/companyLogo2.png";
 import classes from "./Header.module.css";
 
 const Header = () => {
@@ -21,8 +22,9 @@ const Header = () => {
     <header className={classes.header}>
       <div className={classes.headerContainer}>
         <div className={classes.logoContainer}>
-          <Link to={"/"}>
+          <Link to={"/"} className={classes.logoImageContainer}>
             <img src={companyLogo} alt="ERR" />
+            <img src={companyLogo2} alt="ERR" />
           </Link>
         </div>
         <nav className={classes.linkContainer}>

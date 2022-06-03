@@ -1,32 +1,45 @@
 import { useParams } from "react-router-dom";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import { useState, useEffect } from "react";
-import classes from "./CollectionsPage.module.css";
+import classes from "./CollectionSetPage.module.css";
 import ProductCardList from "./components/ProductCardList/ProductCardList";
 
-const CollectionsPage = () => {
-  const { name } = useParams();
+const CollectionSetPage = () => {
+  const { name, setName } = useParams();
   const [productsData, setProductsData] = useState([]);
+  const [collectionSetName, setCollectionSetName] = useState("");
   const [mainImage, setMainImage] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const history = useHistory();
   useEffect(() => {
-    findCollection();
+    findCollectionData();
     getImage();
+    getCollectionSetName();
   }, []);
-  const findCollection = async () => {
+  const findCollectionData = async () => {
     setIsLoading(true);
     try {
-      let response = await require(`../../data/${name}.json`);
+      let response = await require(`../../data/${name}/${setName}.json`);
       setProductsData(response);
     } catch (e) {
       return history.push("/");
     }
     setIsLoading(false);
   };
+  const getCollectionSetName = async () => {
+    try {
+      let response = await require(`../../data/${name}.json`);
+      const finalData = response.filter((data) => data.value === setName);
+      console.log(response);
+      console.log(finalData);
+      setCollectionSetName(finalData[0].name);
+    } catch (e) {
+      setCollectionSetName("Something Went Wrong");
+    }
+  };
   const getImage = async () => {
     try {
-      let response = await require(`../../assets/collections/${name}.jpg`)
+      let response = await require(`../../assets/${name}/${setName}.jpg`)
         .default;
       setMainImage(response);
     } catch (e) {
@@ -41,14 +54,19 @@ const CollectionsPage = () => {
         <div>
           <section className={classes.mainCollectionSection}>
             <h1 className={classes.mainTitle}>
-              {name.charAt(0).toUpperCase() + name.slice(1)} Collection
+              {name.charAt(0).toUpperCase() + name.slice(1)} -{" "}
+              {collectionSetName}
             </h1>
             <img src={mainImage} alt="ERR" />
           </section>
           <section className={classes.ProductCardListSection}>
             <div className={classes.ProductCardListContainer}>
               <h1 className={classes.mainTitle}>Product Sets</h1>
-              <ProductCardList data={productsData} collection={name} />
+              <ProductCardList
+                data={productsData}
+                collection={name}
+                collectionSet={setName}
+              />
             </div>
           </section>
         </div>
@@ -56,4 +74,4 @@ const CollectionsPage = () => {
     </>
   );
 };
-export default CollectionsPage;
+export default CollectionSetPage;

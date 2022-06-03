@@ -21,13 +21,8 @@ const Footer = () => {
             <div className={classes.addressContainer}>
               <h5>Hansanesia Products</h5>
               <address>
-                Jalan Raya Kebon Jeruk <br />
-                Jakarta 11530 <br />
-                <br />
                 Email:{" "}
-                <a href="mailto:hansanesia@gmail.com">
-                  hansanesia@gmail.com
-                </a>{" "}
+                <a href="mailto:hansanesia@gmail.com">hansanesia@gmail.com</a>{" "}
                 <br />
                 Phone: <a href="tel:0812-3451-2411">+(62) 812-3451-2411</a>
               </address>

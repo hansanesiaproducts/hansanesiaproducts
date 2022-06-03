@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import SideButton from "./components/SideButton/SideButton";
 import AboutPage from "./Pages/AboutPage/AboutPage";
+import CollectionSetPage from "./Pages/CollectionSetPage/CollectionSetPage";
 import CollectionsPage from "./Pages/CollectionsPage/CollectionsPage";
 import ContactPage from "./Pages/ContactPage/ContactPage";
 import MainPage from "./Pages/MainPage/MainPage";
@@ -24,9 +25,13 @@ function App() {
           <Route path={"/contact"}>
             <ContactPage />
           </Route>
+          <Route path={"/collection/:name/:setName"}>
+            <CollectionSetPage />
+          </Route>
           <Route path={"/collection/:name"}>
             <CollectionsPage />
           </Route>
+
           <Route exact path={"/"}>
             <MainPage />
           </Route>
