@@ -23,13 +23,19 @@
 .sendEmailContainer h4 {
   margin-bottom: 10px;
 }
-
+.emailOuterContainer {
+  width: 100%;
+  margin-top: 20px;
+}
+.emailInvalid {
+  margin-left: 30px;
+  color: red;
+}
 .emailInputContainer {
   width: 100%;
-  display: flex;
   background-color: #6b6b6b;
   padding: 20px 30px;
-  margin-top: 20px;
+  display: flex;
 }
 
 .emailInputContainer input {
@@ -58,4 +64,11 @@
   padding: 0.5em 1em;
   background-color: #d9b537;
   border: none;
+  cursor: pointer;
+}
+.emailInputContainer button:hover {
+  background-color: #a68d32;
+}
+.emailInputContainer button:disabled {
+  background-color: #bdb38f;
 }
