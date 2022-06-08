@@ -29,11 +29,17 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className={classes.collectionFooterContainer}>
           <h3>Collections</h3>
-          <div>
+          <div className={classes.collectionLinkContainer}>
+            <Link to={""}>Smith Collection</Link>
+            <Link to={""}>Smith Collection</Link>
             <Link to={""}>Smith Collection</Link>
           </div>
+        </div>
+        <div className={classes.counterFooterContainer}>
+          <p>Counter:</p>
+          <p>1</p>
         </div>
       </div>
       <div className={classes.bottomFooterContainer}>

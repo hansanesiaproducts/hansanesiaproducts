@@ -15,7 +15,25 @@
 .whatsapp img {
   width: 80px;
   height: 80px;
-  padding: 15px;
+  padding: 10px;
   background-color: #00d16b;
   border-radius: 50%;
+}
+@media screen and (max-width: 800px) {
+  .whatsapp img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sideButtonContainer {
+    margin-right: 10px;
+    margin-bottom: 100px;
+  }
+  .whatsapp img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+  }
 }

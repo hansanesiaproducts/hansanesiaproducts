@@ -8,5 +8,10 @@
         "id":"c2",
         "name":"NotCeltic Collection",
         "value": "notceltic"
+    },
+    {
+        "id":"c3",
+        "name":"NotCeltic Collection3",
+        "value": "notceltic3"
     }
 ]

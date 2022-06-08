@@ -18,7 +18,7 @@
   padding: 50px 100px;
 }
 
-.contentContainer p{
+.contentContainer p {
   margin-bottom: 30px;
 }
 
@@ -39,4 +39,33 @@
   height: 1px;
   padding: 1px;
   border-top: 3px solid var(--gray);
+}
+@media screen and (max-width: 1250px) {
+  .contentContainer {
+    padding: 40px 50px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .contentContainer {
+    padding: 30px 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .knowMoreContainer {
+    flex-direction: column-reverse;
+  }
+  .imageContainer {
+    width: 100%;
+  }
+  .contentContainer {
+    width: 100%;
+    padding: 40px 25px;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .contentContainer {
+    padding: 40px 15px;
+    margin: 0px;
+  }
 }

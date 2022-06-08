@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import companyLogo from "../../assets/company/companyLogo.png";
 import companyLogo2 from "../../assets/company/companyLogo2.png";
 import classes from "./Header.module.css";
-
+import hamburger from "../../assets/icons/hamburger_icon.png";
 const Header = () => {
+  const [headerActive, setHeaderActive] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", handlePageScroll);
-  });
+  }, []);
   const handlePageScroll = () => {
     if (window.scrollY === 0) {
       document.getElementsByTagName("header")[0].style.boxShadow = "none";
@@ -16,6 +17,9 @@ const Header = () => {
       document.getElementsByTagName("header")[0].style.boxShadow =
         "0px 1px 7px 1px #626262";
     }
+  };
+  const handleChangeHeader = () => {
+    setHeaderActive((prevState) => !prevState);
   };
 
   return (
@@ -27,8 +31,15 @@ const Header = () => {
             <img src={companyLogo2} alt="ERR" />
           </Link>
         </div>
+
         <nav className={classes.linkContainer}>
-          <ul>
+          <img
+            src={hamburger}
+            alt="ERR"
+            className={classes.hamburger}
+            onClick={handleChangeHeader}
+          />
+          <ul className={headerActive ? classes.active : ""}>
             <li>
               <NavLink exact to={"/"} activeClassName={classes.active}>
                 Home

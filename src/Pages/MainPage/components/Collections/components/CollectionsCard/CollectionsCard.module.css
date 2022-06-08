@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33%;
+  width: 31%;
 
   margin: 20px 10px;
 }
@@ -13,6 +13,19 @@
   object-fit: cover;
 }
 .cardContainer p {
+  text-align: center;
   margin: 10px;
   color: var(--gray);
+}
+@media screen and (max-width: 870px) {
+  .cardContainer {
+    width: 100%;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .cardContainer {
+    width: 100%;
+    margin: 10px;
+  }
 }
