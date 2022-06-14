@@ -3,7 +3,7 @@ import CollectionsCard from "./components/CollectionsCard/CollectionsCard";
 import collectionData from "../../../../data/collections.json";
 const Collections = () => {
   return (
-    <section className={classes.collectionsContainer}>
+    <section className={classes.collectionsContainer} id="collections">
       <div className={classes.titleContainer}>
         <h1>Collections</h1>
       </div>

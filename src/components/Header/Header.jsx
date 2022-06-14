@@ -5,6 +5,7 @@ import companyLogo from "../../assets/company/companyLogo.png";
 import companyLogo2 from "../../assets/company/companyLogo2.png";
 import classes from "./Header.module.css";
 import hamburger from "../../assets/icons/hamburger_icon.png";
+
 const Header = () => {
   const [headerActive, setHeaderActive] = useState(false);
   useEffect(() => {
@@ -21,7 +22,6 @@ const Header = () => {
   const handleChangeHeader = () => {
     setHeaderActive((prevState) => !prevState);
   };
-
   return (
     <header className={classes.header}>
       <div className={classes.headerContainer}>
@@ -51,9 +51,7 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to={"/product"} activeClassName={classes.active}>
-                Product
-              </NavLink>
+              <Link to={"/#collections"}>Collections</Link>
             </li>
             <li>
               <NavLink to={"/contact"} activeClassName={classes.active}>
