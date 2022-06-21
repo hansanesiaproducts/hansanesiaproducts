@@ -61,4 +61,3 @@ Note* Create new [value of collection] folder if there is no folder
 ```bash
   src -> assets -> [value of collection]
 ```
-
