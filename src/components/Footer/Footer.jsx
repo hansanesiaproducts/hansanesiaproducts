@@ -22,9 +22,9 @@ const Footer = () => {
               <h5>Hansanesia Products</h5>
               <address>
                 Email:{" "}
-                <a href="mailto:hansanesia@gmail.com">hansanesia@gmail.com</a>{" "}
+                <a href="mailto:hansanesia@yahoo.com">hansanesia@yahoo.com</a>{" "}
                 <br />
-                Phone: <a href="tel:0812-3451-2411">+(62) 812-3451-2411</a>
+                Phone: <a href="tel:0816-1846-300">+(62) 816-1846-300</a>
               </address>
             </div>
           </div>

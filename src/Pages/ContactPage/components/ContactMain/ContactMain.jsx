@@ -19,7 +19,7 @@ const ContactMain = () => {
             <ul>
               <li>
                 <img src={email} alt="ERR" />
-                <a href="mailto:hansanesia@gmail.com">hansanesia@gmail.com</a>
+                <a href="mailto:hansanesia@yahoo.com">hansanesia@yahoo.com</a>
               </li>
               <li>
                 <img src={instagram} alt="ERR" />
@@ -27,7 +27,7 @@ const ContactMain = () => {
               </li>
               <li>
                 <img src={phone} alt="ERR" />
-                <a href="tel:0812-3451-2411">+(62) 812-3451-2411</a>
+                <a href="tel:0816-1846-300">+(62) 816-1846-300</a>
               </li>
             </ul>
           </div>
