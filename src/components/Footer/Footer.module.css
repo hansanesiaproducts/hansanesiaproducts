@@ -77,7 +77,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .socialsContainer a {
   margin: 10px 10px;
@@ -87,6 +87,7 @@
   width: 25px;
   height: 25px;
 }
+
 @media screen and (max-width: 800px) {
   .topFooterContainer {
     flex-direction: column;
@@ -97,4 +98,17 @@
   .counterFooterContainer {
     margin-top: 40px;
   }
+  .copyrightContainer h5{
+    font-size: 1rem;
+  } 
+  .socialsContainer a img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .copyrightContainer h5{
+    font-size: .6rem;
+  } 
 }
