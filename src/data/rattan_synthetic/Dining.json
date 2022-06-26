@@ -1,0 +1,42 @@
+[
+    {
+        "id":"Dining1",
+        "name":"Dining",
+        "value": "Berka1"
+    },
+    {
+        "id":"Dining2",
+        "name":"Dining",
+        "value": "Casper1"
+    },
+    {
+        "id":"Dining3",
+        "name":"Dining",
+        "value": "Halver1"
+    },
+    {
+        "id":"Dining4",
+        "name":"Dining",
+        "value": "Herten1"
+    },
+    {
+        "id":"Dining5",
+        "name":"Dining",
+        "value": "Jever1"
+    },
+    {
+        "id":"Dining6",
+        "name":"Dining",
+        "value": "Laredo1"
+    },
+    {
+        "id":"Dining7",
+        "name":"Dining",
+        "value": "Morelio1"
+    },
+    {
+        "id":"Dining8",
+        "name":"Dining",
+        "value": "Stein1"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id":"Day_Bed1",
+        "name":"Day_Bed",
+        "value": "Abeel1"
+    },
+    {
+        "id":"Day_Bed2",
+        "name":"Day_Bed",
+        "value": "Abeel2"
+    },
+    {
+        "id":"Day_Bed3",
+        "name":"Day_Bed",
+        "value": "Abeel3"
+    },
+    {
+        "id":"Day_Bed4",
+        "name":"Day_Bed",
+        "value": "Box1"
+    },
+    {
+        "id":"Day_Bed5",
+        "name":"Day_Bed",
+        "value": "Box2"
+    },
+    {
+        "id":"Day_Bed6",
+        "name":"Day_Bed",
+        "value": "Erlagen1"
+    },
+    {
+        "id":"Day_Bed7",
+        "name":"Day_Bed",
+        "value": "Laupen1"
+    },
+    {
+        "id":"Day_Bed8",
+        "name":"Day_Bed",
+        "value": "Santa Cruz"
+    }
+]

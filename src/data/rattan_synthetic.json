@@ -148,29 +148,5 @@
         "id":"rattan30",
         "name":"Zapopan",
         "value": "Zapopan"
-    },
-
-
-
-
-    {
-        "id":"dining1",
-        "name":"Dining Set",
-        "value": "dining1"
-    },
-    {
-        "id":"celtic2",
-        "name":"Celtic2",
-        "value": "celtic2"
-    },
-    {
-        "id":"celtic3",
-        "name":"Celtic3",
-        "value": "celtic3"
-    },
-    {
-        "id":"celtic4",
-        "name":"Celtic4",
-        "value": "celtic4"
     }
 ]

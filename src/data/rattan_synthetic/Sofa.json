@@ -1,0 +1,22 @@
+[
+    {
+        "id":"Sofa1",
+        "name":"Sofa",
+        "value": "Bilbao1"
+    },
+    {
+        "id":"Sofa2",
+        "name":"Sofa",
+        "value": "Bilbao2"
+    },
+    {
+        "id":"Sofa3",
+        "name":"Sofa",
+        "value": "Siena"
+    },
+    {
+        "id":"Sofa4",
+        "name":"Sofa",
+        "value": "Yorkshire1"
+    }
+]
