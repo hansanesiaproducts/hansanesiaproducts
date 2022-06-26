@@ -10,6 +10,7 @@
 .mainTitle {
   color: var(--gray);
   margin-bottom: 30px;
+  margin-left: 10px;
   position: relative;
 }
 .mainTitle::after {

@@ -1,14 +1,9 @@
 .cardContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 31%;
-
   margin: 20px 10px;
 }
 .cardContainer img {
-  height: 100%;
+  height: 300px;
   width: 100%;
   object-fit: cover;
 }
@@ -19,8 +14,17 @@
 }
 @media screen and (max-width: 870px) {
   .cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin: 10px;
+  }
+  .cardContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 }
 @media screen and (max-width: 650px) {

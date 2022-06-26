@@ -12,7 +12,12 @@ const MainPage = () => {
     if (location.hash) {
       let elem = document.getElementById(location.hash.slice(1));
       if (elem) {
-        const y = elem.getBoundingClientRect().top + window.pageYOffset - 130;
+        let y;
+        if (window.screen.width <= 450) {
+          y = elem.getBoundingClientRect().top + window.pageYOffset - 130;
+        } else {
+          y = elem.getBoundingClientRect().top + window.pageYOffset - 100;
+        }
 
         window.scrollTo({ top: y, behavior: "smooth" });
       }

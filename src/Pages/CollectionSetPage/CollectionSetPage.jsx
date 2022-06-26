@@ -8,13 +8,16 @@ const CollectionSetPage = () => {
   const { name, setName } = useParams();
   const [productsData, setProductsData] = useState([]);
   const [collectionSetName, setCollectionSetName] = useState("");
+  const [collectionName, setCollectionName] = useState("");
   const [mainImage, setMainImage] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+
   const history = useHistory();
   useEffect(() => {
     findCollectionData();
     getImage();
     getCollectionSetName();
+    getName();
   }, []);
   const findCollectionData = async () => {
     setIsLoading(true);
@@ -37,6 +40,17 @@ const CollectionSetPage = () => {
       setCollectionSetName("Something Went Wrong");
     }
   };
+  const getName = async () => {
+    try {
+      let response = await require(`../../data/collections.json`);
+      const finalData = response.filter((data) => data.value === name);
+      console.log(response);
+      console.log(finalData);
+      setCollectionName(finalData[0].name);
+    } catch (e) {
+      setCollectionName("Something Went Wrong");
+    }
+  };
   const getImage = async () => {
     try {
       let response = await require(`../../assets/${name}/${setName}.jpg`)
@@ -54,8 +68,7 @@ const CollectionSetPage = () => {
         <div>
           <section className={classes.mainCollectionSection}>
             <h1 className={classes.mainTitle}>
-              {name.charAt(0).toUpperCase() + name.slice(1)} -{" "}
-              {collectionSetName}
+              {collectionName} - {collectionSetName}
             </h1>
             <img src={mainImage} alt="ERR" />
           </section>

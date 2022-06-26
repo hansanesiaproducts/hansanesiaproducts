@@ -1,11 +1,9 @@
 .cardContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 31%;
 
   margin: 20px 10px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 .cardContainer img {
   height: 100%;
@@ -15,4 +13,14 @@
 .cardContainer p {
   margin: 10px;
   color: var(--gray);
+}
+@media screen and (max-width: 860px) {
+  .cardContainer {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cardContainer {
+    width: 100%;
+  }
 }

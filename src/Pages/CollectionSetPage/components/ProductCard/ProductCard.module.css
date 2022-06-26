@@ -1,10 +1,11 @@
 .productCard {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 31%;
   margin: 20px 10px;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -44,4 +45,14 @@
 .productCard p {
   margin: 10px;
   color: var(--gray);
+}
+@media screen and (max-width: 860px) {
+  .productCard {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .productCard {
+    width: 100%;
+  }
 }

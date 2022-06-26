@@ -22,6 +22,9 @@ const Header = () => {
   const handleChangeHeader = () => {
     setHeaderActive((prevState) => !prevState);
   };
+  const handleCloseHeader = () => {
+    setHeaderActive(false);
+  };
   return (
     <header className={classes.header}>
       <div className={classes.headerContainer}>
@@ -41,20 +44,35 @@ const Header = () => {
           />
           <ul className={headerActive ? classes.active : ""}>
             <li>
-              <NavLink exact to={"/"} activeClassName={classes.active}>
+              <NavLink
+                exact
+                to={"/"}
+                activeClassName={classes.active}
+                onClick={handleCloseHeader}
+              >
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to={"/about"} activeClassName={classes.active}>
+              <NavLink
+                to={"/about"}
+                activeClassName={classes.active}
+                onClick={handleCloseHeader}
+              >
                 About
               </NavLink>
             </li>
             <li>
-              <Link to={"/#collections"}>Collections</Link>
+              <Link to={"/#collections"} onClick={handleCloseHeader}>
+                Collections
+              </Link>
             </li>
             <li>
-              <NavLink to={"/contact"} activeClassName={classes.active}>
+              <NavLink
+                to={"/contact"}
+                activeClassName={classes.active}
+                onClick={handleCloseHeader}
+              >
                 Contact
               </NavLink>
             </li>

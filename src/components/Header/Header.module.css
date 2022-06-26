@@ -69,6 +69,7 @@ a.active {
     right: 20px;
     top: 50px;
     transform: translateY(-50%);
+    cursor: pointer;
   }
   .linkContainer {
     width: 100%;
@@ -126,7 +127,6 @@ a.active {
   }
   .linkContainer ul.active {
     top: 130px;
-
 
     /* align-items: center;
     justify-content: space-between; */

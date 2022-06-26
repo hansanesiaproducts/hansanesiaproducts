@@ -9,10 +9,12 @@ const CollectionsPage = () => {
   const [productsData, setProductsData] = useState([]);
   const [mainImage, setMainImage] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [collectionName, setCollectionName] = useState("");
   const history = useHistory();
   useEffect(() => {
     findCollection();
     getImage();
+    getName();
   }, []);
   const findCollection = async () => {
     setIsLoading(true);
@@ -33,6 +35,17 @@ const CollectionsPage = () => {
       setMainImage("ERROR");
     }
   };
+  const getName = async () => {
+    try {
+      let response = await require(`../../data/collections.json`);
+      const finalData = response.filter((data) => data.value === name);
+      console.log(response);
+      console.log(finalData);
+      setCollectionName(finalData[0].name);
+    } catch (e) {
+      setCollectionName("Something Went Wrong");
+    }
+  };
   return (
     <>
       {isLoading ? (
@@ -40,9 +53,7 @@ const CollectionsPage = () => {
       ) : (
         <div>
           <section className={classes.mainCollectionSection}>
-            <h1 className={classes.mainTitle}>
-              {name.charAt(0).toUpperCase() + name.slice(1)} Collection
-            </h1>
+            <h1 className={classes.mainTitle}>{collectionName} Collection</h1>
             <img src={mainImage} alt="ERR" />
           </section>
           <section className={classes.ProductCardListSection}>

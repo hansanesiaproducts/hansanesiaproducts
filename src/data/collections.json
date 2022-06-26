@@ -1,16 +1,16 @@
 [
     {
-        "id":"c1",
-        "name":"Celtic Collection",
-        "value": "celtic"
+        "id":"collection1",
+        "name":"Rattan Synthetic Outdoor Furniture",
+        "value": "rattan_synthetic"
     },
     {
-        "id":"c2",
+        "id":"collection2",
         "name":"NotCeltic Collection",
         "value": "notceltic"
     },
     {
-        "id":"c3",
+        "id":"collection3",
         "name":"NotCeltic Collection3",
         "value": "notceltic3"
     }
