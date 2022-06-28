@@ -4,7 +4,7 @@ const SideButton = () => {
   return (
     <div className={classes.sideButtonContainer}>
       <a
-        href="https://api.whatsapp.com/send?phone=628161846300&text=Halotesting"
+        href="https://api.whatsapp.com/send?phone=628161846300&text=Halo%20Hansanesia"
         target={"_blank"}
         rel="noreferrer"
         className={`${classes.buttonContainer} ${classes.whatsapp}`}

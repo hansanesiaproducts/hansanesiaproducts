@@ -6,12 +6,12 @@
     },
     {
         "id":"collection2",
-        "name":"NotCeltic Collection",
-        "value": "notceltic"
+        "name":"Handicraft",
+        "value": "handicraft"
     },
     {
         "id":"collection3",
-        "name":"NotCeltic Collection3",
-        "value": "notceltic3"
+        "name":"Teak Garden Furniture",
+        "value": "teak_garden"
     }
 ]

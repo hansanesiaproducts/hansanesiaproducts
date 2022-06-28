@@ -32,7 +32,9 @@ const Footer = () => {
         <div className={classes.collectionFooterContainer}>
           <h3>Collections</h3>
           <div className={classes.collectionLinkContainer}>
-            <Link to={""}>Smith Collection</Link>
+            <Link to={"/collection/rattan_synthetic"}>
+              Rattan Synthetic Outdoor Furniture
+            </Link>
             <Link to={""}>Smith Collection</Link>
             <Link to={""}>Smith Collection</Link>
           </div>

@@ -1,0 +1,32 @@
+[
+    {
+        "id":"rattan1",
+        "name":"Bamboo Rattan Handicraft",
+        "value": "bamboo_rattan_handicraft"
+    },
+    {
+        "id":"rattan2",
+        "name":"Macrame Wall Decor Handicraft",
+        "value": "macrame_wall_decor_handicraft"
+    },
+    {
+        "id":"rattan3",
+        "name":"Natural Basket",
+        "value": "natural_basket"
+    },
+    {
+        "id":"rattan4",
+        "name":"Rattan Basket",
+        "value": "rattan_basket"
+    },
+    {
+        "id":"rattan5",
+        "name":"Rattan Mirror",
+        "value": "rattan_mirror"
+    },
+    {
+        "id":"rattan6",
+        "name":"Wall Decor Natural Handicraft",
+        "value": "wall_decor_natural_handicraft"
+    }
+]
