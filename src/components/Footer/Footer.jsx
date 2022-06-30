@@ -3,9 +3,11 @@ import classes from "./Footer.module.css";
 
 import facebookIcon from "../../assets/icons/facebook.png";
 import instagramIcon from "../../assets/icons/instagram.png";
-import whatsappIcon from "../../assets/icons/whatsapp.png";
-const Footer = () => {
+
+const Footer = (props) => {
   // Splide JS
+  const { totalVisitor } = props;
+
   return (
     <footer className={classes.footerContainer}>
       <div className={classes.topFooterContainer}>
@@ -35,13 +37,13 @@ const Footer = () => {
             <Link to={"/collection/rattan_synthetic"}>
               Rattan Synthetic Outdoor Furniture
             </Link>
-            <Link to={""}>Smith Collection</Link>
-            <Link to={""}>Smith Collection</Link>
+            <Link to={"/collection/handicraft"}>Handicraft</Link>
+            <Link to={"/collection/teak_garden"}>Teak Garden Furniture</Link>
           </div>
         </div>
         <div className={classes.counterFooterContainer}>
-          <p>Counter:</p>
-          <p>1</p>
+          <p>Counter: </p>
+          <p> {totalVisitor}</p>
         </div>
       </div>
       <div className={classes.bottomFooterContainer}>
@@ -54,9 +56,6 @@ const Footer = () => {
           <div className={classes.socialsContainer}>
             <a href="dw">
               <img src={instagramIcon} alt="ERR" />
-            </a>
-            <a href="dw">
-              <img src={whatsappIcon} alt="ERR" />
             </a>
             <a href="dw">
               <img src={facebookIcon} alt="ERR" />
