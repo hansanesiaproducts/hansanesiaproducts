@@ -12,15 +12,27 @@
   margin-top: 15px;
   border-radius: 50%;
 }
-.whatsapp img {
+.whatsapp img,
+.email img,
+.phone img {
   width: 80px;
   height: 80px;
   padding: 10px;
-  background-color: #00d16b;
   border-radius: 50%;
 }
+.whatsapp img {
+  background-color: #00d16b;
+}
+.email img {
+  background-color: #ea4335;
+}
+.phone img {
+  background-color: #fbbc05;
+}
 @media screen and (max-width: 800px) {
-  .whatsapp img {
+  .whatsapp img,
+  .email img,
+  .phone img {
     width: 70px;
     height: 70px;
     padding: 10px;
@@ -31,7 +43,9 @@
     margin-right: 10px;
     margin-bottom: 100px;
   }
-  .whatsapp img {
+  .whatsapp img,
+  .email img,
+  .phone img {
     width: 60px;
     height: 60px;
     padding: 10px;

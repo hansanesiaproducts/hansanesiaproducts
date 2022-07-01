@@ -42,8 +42,8 @@ const SendEmail = () => {
   return (
     <section className={classes.sendEmailSection}>
       <div className={classes.sendEmailContainer}>
-        <h1>Stay With Us</h1>
-        <h4>Subscribe to our newsletter</h4>
+        <h1>Need a catalogue?</h1>
+        <h4>Write us your email address here</h4>
         <div className={classes.emailOuterContainer}>
           {emailValid ? (
             ""
@@ -53,7 +53,7 @@ const SendEmail = () => {
           <div className={classes.emailInputContainer}>
             <input type="email" placeholder="Email address" ref={email} />
             <button onClick={sendEmailHandler} disabled={buttonLoading}>
-              {buttonLoading ? "Sending..." : "Subscribe"}
+              {buttonLoading ? "Sending..." : "Send us please"}
             </button>
           </div>
         </div>

@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
-import companyLogo from "../../assets/company/companyLogo.png";
-import companyLogo2 from "../../assets/company/companyLogo2.png";
+import companyLogo from "../../assets/company/companyLogo2.png";
 import classes from "./Header.module.css";
 import hamburger from "../../assets/icons/hamburger_icon.png";
 
@@ -31,7 +30,6 @@ const Header = () => {
         <div className={classes.logoContainer}>
           <Link to={"/"} className={classes.logoImageContainer}>
             <img src={companyLogo} alt="ERR" />
-            <img src={companyLogo2} alt="ERR" />
           </Link>
         </div>
 
