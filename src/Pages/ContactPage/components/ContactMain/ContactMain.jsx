@@ -2,6 +2,8 @@ import classes from "./ContactMain.module.css";
 import email from "../../../../assets/icons/email.png";
 import phone from "../../../../assets/icons/phone.png";
 import instagram from "../../../../assets/icons/instagram.png";
+import companyLogo from "../../../../assets/company/companyLogo.png"
+
 const ContactMain = () => {
   return (
     <section className={classes.contactUsSection}>
@@ -9,10 +11,11 @@ const ContactMain = () => {
         <h1 className={classes.mainTitle}>Contact Us</h1>
         <div className={classes.contactUsInnerContainer}>
           <div className={classes.addressContainer}>
-            <h2>Hansanesia Products </h2>
+            <img src={companyLogo} alt="logo hansanesia" />
+            <h2>PT. Wilargo Inti Manunggal</h2>
             <address>
-              Jalan Raya Kebon Jeruk <br />
-              Jakarta 11530
+              Villa Melati Mas Blok H1 No. 26, <br/>
+               Jelupang, Serpong Utara, Tangerang Selatan
             </address>
           </div>
           <div className={classes.socialsContainer}>

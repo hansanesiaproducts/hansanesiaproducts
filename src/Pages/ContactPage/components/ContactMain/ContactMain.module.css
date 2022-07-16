@@ -27,6 +27,16 @@
 .addressContainer {
   width: 50%;
 }
+.addressContainer img{
+  width: 200px;
+  margin-bottom: 15px;
+}
+.addressContainer h2{
+  margin-bottom: 10px;
+}
+.addressContainer address{
+  line-height:30px;
+}
 .socialsContainer {
   width: 50%;
 }
@@ -45,4 +55,17 @@
 }
 .socialsContainer ul li a {
   color: var(--gray);
+}
+@media screen and (max-width: 1100px){
+  .socialsContainer ul li img {
+    width: 60px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 800px){
+  .contactUsInnerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }

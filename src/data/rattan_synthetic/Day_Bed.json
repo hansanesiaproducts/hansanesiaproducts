@@ -1,42 +1,42 @@
 [
     {
         "id":"Day_Bed1",
-        "name":"Day_Bed",
+        "name":"Abeel1",
         "value": "Abeel1"
     },
     {
         "id":"Day_Bed2",
-        "name":"Day_Bed",
+        "name":"Abeel2",
         "value": "Abeel2"
     },
     {
         "id":"Day_Bed3",
-        "name":"Day_Bed",
+        "name":"Abeel3",
         "value": "Abeel3"
     },
     {
         "id":"Day_Bed4",
-        "name":"Day_Bed",
+        "name":"Box1",
         "value": "Box1"
     },
     {
         "id":"Day_Bed5",
-        "name":"Day_Bed",
+        "name":"Box2",
         "value": "Box2"
     },
     {
         "id":"Day_Bed6",
-        "name":"Day_Bed",
+        "name":"Erlagen1",
         "value": "Erlagen1"
     },
     {
         "id":"Day_Bed7",
-        "name":"Day_Bed",
+        "name":"Laupen1",
         "value": "Laupen1"
     },
     {
         "id":"Day_Bed8",
-        "name":"Day_Bed",
+        "name":"Santa Cruz",
         "value": "Santa Cruz"
     }
 ]

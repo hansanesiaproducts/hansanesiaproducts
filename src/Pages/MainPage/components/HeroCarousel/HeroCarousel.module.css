@@ -1,4 +1,4 @@
 .carouselImage{
     width: 100vw;
-    max-height: calc(100vh - 84px);
+    height: calc(100vh - 84px);
 }

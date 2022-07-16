@@ -15,26 +15,26 @@
 .whatsapp img,
 .email img,
 .phone img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   padding: 10px;
   border-radius: 50%;
 }
 .whatsapp img {
-  background-color: #00d16b;
+  background-color: #128c7e;
 }
 .email img {
-  background-color: #ea4335;
+  background-color: #ef4747;
 }
 .phone img {
-  background-color: #fbbc05;
+  background-color: #e7f046;
 }
 @media screen and (max-width: 800px) {
   .whatsapp img,
   .email img,
   .phone img {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     padding: 10px;
   }
 }
@@ -46,8 +46,8 @@
   .whatsapp img,
   .email img,
   .phone img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     padding: 10px;
   }
 }

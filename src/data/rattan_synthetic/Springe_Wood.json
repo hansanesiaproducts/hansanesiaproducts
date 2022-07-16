@@ -1,32 +1,32 @@
 [
     {
         "id":"Springe_Wood1",
-        "name":"Springe_Wood",
+        "name":"Springe_Wood-1",
         "value": "SW1"
     },
     {
         "id":"Springe_Wood2",
-        "name":"Springe_Wood",
+        "name":"Springe_Wood-2",
         "value": "SW2"
     },
     {
         "id":"Springe_Wood3",
-        "name":"Springe_Wood",
+        "name":"Springe_Wood-3",
         "value": "SW3"
     },
     {
         "id":"Springe_Wood4",
-        "name":"Springe_Wood",
+        "name":"Springe_Wood-4",
         "value": "SW4"
     },
     {
         "id":"Springe_Wood5",
-        "name":"Springe_Wood",
+        "name":"Springe_Wood-5",
         "value": "SW5"
     },
     {
         "id":"Springe_Wood6",
-        "name":"Springe_Wood",
+        "name":"Springe_Wood-6",
         "value": "SW6"
     }
 ]

@@ -1,10 +1,11 @@
 import classes from "./Misson.module.css";
 import tes from "./herotes.jpg";
+import foto1 from "./foto1.jpg";
 const Misson = () => {
   return (
     <section className={classes.missonContainer}>
       <div className={classes.imageContainer}>
-        <img src={tes} alt="" />
+        <img src={foto1} alt="" />
       </div>
       <div className={classes.contentContainer}>
         <h1>Mission</h1>

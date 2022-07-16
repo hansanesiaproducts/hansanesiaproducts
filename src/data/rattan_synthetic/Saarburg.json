@@ -1,12 +1,12 @@
 [
     {
         "id":"Saarburg1",
-        "name":"Saarburg",
+        "name":"Saarburg-1",
         "value": "Saarburg1"
     },
     {
         "id":"Saarburg2",
-        "name":"Saarburg",
+        "name":"Saarburg-2",
         "value": "Saarburg2"
     }
 ]

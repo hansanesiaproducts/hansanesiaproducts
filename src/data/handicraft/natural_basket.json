@@ -1,57 +1,57 @@
 [
     {
         "id":"natural_basket1",
-        "name":"natural_basket",
+        "name":"HBX358",
         "value": "HBX358"
     },
     {
         "id":"natural_basket2",
-        "name":"natural_basket",
+        "name":"HBX359",
         "value": "HBX359"
     },
     {
         "id":"natural_basket3",
-        "name":"natural_basket",
+        "name":"HMI2608",
         "value": "HMI2608"
     },
     {
         "id":"natural_basket4",
-        "name":"natural_basket",
+        "name":"HMI2617",
         "value": "HMI2617"
     },
     {
         "id":"natural_basket5",
-        "name":"natural_basket",
+        "name":"HOB2410",
         "value": "HOB2410"
     },
     {
         "id":"natural_basket6",
-        "name":"natural_basket",
+        "name":"HOB2411",
         "value": "HOB2411"
     },
     {
         "id":"natural_basket7",
-        "name":"natural_basket",
+        "name":"HOB2418",
         "value": "HOB2418"
     },
     {
         "id":"natural_basket8",
-        "name":"natural_basket",
+        "name":"HOB2419",
         "value": "HOB2419"
     },
     {
         "id":"natural_basket9",
-        "name":"natural_basket",
+        "name":"HOB2420",
         "value": "HOB2420"
     },
     {
         "id":"natural_basket10",
-        "name":"natural_basket",
+        "name":"HOB2424",
         "value": "HOB2424"
     },
     {
         "id":"natural_basket11",
-        "name":"natural_basket",
+        "name":"HOB2426",
         "value": "HOB2426"
     }
 ]

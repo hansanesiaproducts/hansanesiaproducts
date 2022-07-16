@@ -1,37 +1,37 @@
 [
     {
         "id":"Stolberg1",
-        "name":"Stolberg",
+        "name":"Stolberg-1",
         "value": "Stol1"
     },
     {
         "id":"Stolberg2",
-        "name":"Stolberg",
+        "name":"Stolberg-2",
         "value": "Stol2"
     },
     {
         "id":"Stolberg3",
-        "name":"Stolberg",
+        "name":"Stolberg-3",
         "value": "Stol3"
     },
     {
         "id":"Stolberg4",
-        "name":"Stolberg",
+        "name":"Stolberg-4",
         "value": "Stol4"
     },
     {
         "id":"Stolberg5",
-        "name":"Stolberg",
+        "name":"Stolberg-5",
         "value": "Stol5"
     },
     {
         "id":"Stolberg6",
-        "name":"Stolberg",
+        "name":"Stolberg-6",
         "value": "Stol6"
     },
     {
         "id":"Stolberg7",
-        "name":"Stolberg",
+        "name":"Stolberg-7",
         "value": "Stol7"
     }
 ]

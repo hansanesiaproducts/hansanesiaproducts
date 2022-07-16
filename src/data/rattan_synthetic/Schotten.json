@@ -1,37 +1,37 @@
 [
     {
         "id":"Schotten1",
-        "name":"Schotten",
+        "name":"Schotten-1",
         "value": "Schotten1"
     },
     {
         "id":"Schotten2",
-        "name":"Schotten",
+        "name":"Schotten-2",
         "value": "Schotten2"
     },
     {
         "id":"Schotten3",
-        "name":"Schotten",
+        "name":"Schotten-3",
         "value": "Schotten3"
     },
     {
         "id":"Schotten4",
-        "name":"Schotten",
+        "name":"Schotten-4",
         "value": "Schotten4"
     },
     {
         "id":"Schotten5",
-        "name":"Schotten",
+        "name":"Schotten-5",
         "value": "Schotten5"
     },
     {
         "id":"Schotten6",
-        "name":"Schotten",
+        "name":"Schotten-6",
         "value": "Schotten6"
     },
     {
         "id":"Schotten7",
-        "name":"Schotten",
+        "name":"Schotten-7",
         "value": "Schotten7"
     }
 ]

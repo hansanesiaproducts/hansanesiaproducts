@@ -1,109 +1,107 @@
 [
     {
         "id":"teak_furniture1",
-        "name":"teak_furniture",
+        "name":"Ananta Stool",
         "value": "Ananta Stool"
     },
     {
         "id":"teak_furniture2",
-        "name":"teak_furniture",
+        "name":"Aqua Stool",
         "value": "Aqua Stool"
     },
     {
         "id":"teak_furniture3",
-        "name":"teak_furniture",
+        "name":"Asia Teak Tool",
         "value": "Asia Teak Tool"
     },
     {
         "id":"teak_furniture4",
-        "name":"teak_furniture",
+        "name":"Cabinet 1DR",
         "value": "Cabinet 1DR"
     },
     {
         "id":"teak_furniture5",
-        "name":"teak_furniture",
+        "name":"Corner Stool",
         "value": "Corner Stool"
     },
     {
         "id":"teak_furniture6",
-        "name":"teak_furniture",
+        "name":"Flower Table",
         "value": "Flower Table"
     },
     {
         "id":"teak_furniture7",
-        "name":"teak_furniture",
+        "name":"Garami Bench",
         "value": "Garami Bench"
     },
     {
         "id":"teak_furniture8",
-        "name":"teak_furniture",
+        "name":"Grey Teak Bench",
         "value": "Grey Teak Bench"
     },
     {
         "id":"teak_furniture9",
-        "name":"teak_furniture",
+        "name":"Kecapi Bench",
         "value": "Kecapi Bench"
     },
     {
         "id":"teak_furniture10",
-        "name":"teak_furniture",
+        "name":"Kepang Bench",
         "value": "Kepang Bench"
     },
     {
         "id":"teak_furniture11",
-        "name":"teak_furniture",
+        "name":"New Rocking Chair",
         "value": "New Rocking Chair"
     },
-
-
     {
         "id":"teak_furniture12",
-        "name":"teak_furniture",
+        "name":"Odia Stacking Chair",
         "value": "Odia Stacking Chair"
     },
     {
         "id":"teak_furniture13",
-        "name":"teak_furniture",
+        "name":"Rocking Chair",
         "value": "Rocking Chair"
     },
     {
         "id":"teak_furniture14",
-        "name":"teak_furniture",
+        "name":"Roundside Table 60",
         "value": "Roundside Table 60"
     },
     {
         "id":"teak_furniture15",
-        "name":"teak_furniture",
+        "name":"Stacking Chair",
         "value": "Stacking Chair"
     },
     {
         "id":"teak_furniture16",
-        "name":"teak_furniture",
+        "name":"Summer Stool",
         "value": "Summer Stool"
     },
     {
         "id":"teak_furniture17",
-        "name":"teak_furniture",
+        "name":"Teak Curved Stool",
         "value": "Teak Curved Stool"
     },
     {
         "id":"teak_furniture18",
-        "name":"teak_furniture",
+        "name":"Teak Rattan Cabinet 1DR",
         "value": "Teak Rattan Cabinet 1DR"
     },
     {
         "id":"teak_furniture19",
-        "name":"teak_furniture",
+        "name":"Teak Rattan Cabinet 4Drw",
         "value": "Teak Rattan Cabinet 4Drw"
     },
     {
         "id":"teak_furniture20",
-        "name":"teak_furniture",
+        "name":"Tissue Stand",
         "value": "Tissue Stand"
     },
     {
         "id":"teak_furniture21",
-        "name":"teak_furniture",
+        "name":"Towel Hanger",
         "value": "Towel Hanger"
     }
 ]

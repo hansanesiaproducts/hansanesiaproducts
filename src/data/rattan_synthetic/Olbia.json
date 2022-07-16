@@ -1,47 +1,47 @@
 [
     {
         "id":"Olbia1",
-        "name":"Olbia",
+        "name":"Olbia-1",
         "value": "Olbia1"
     },
     {
         "id":"Olbia2",
-        "name":"Olbia",
+        "name":"Olbia-2",
         "value": "Olbia2"
     },
     {
         "id":"Olbia3",
-        "name":"Olbia",
+        "name":"Olbia-3",
         "value": "Olbia3"
     },
     {
         "id":"Olbia4",
-        "name":"Olbia",
+        "name":"Olbia-4",
         "value": "Olbia4"
     },
     {
         "id":"Olbia5",
-        "name":"Olbia",
+        "name":"Olbia-5",
         "value": "Olbia5"
     },
     {
         "id":"Olbia6",
-        "name":"Olbia",
+        "name":"Olbia-6",
         "value": "Olbia6"
     },
     {
         "id":"Olbia7",
-        "name":"Olbia",
+        "name":"Olbia-7",
         "value": "Olbia7"
     },
     {
         "id":"Olbia8",
-        "name":"Olbia",
+        "name":"Olbia-8",
         "value": "Olbia8"
     },
     {
         "id":"Olbia9",
-        "name":"Olbia",
+        "name":"Olbia-9",
         "value": "Olbia9"
     }
 ]

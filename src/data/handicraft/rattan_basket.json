@@ -1,52 +1,52 @@
 [
     {
         "id":"rattan_basket1",
-        "name":"rattan_basket",
+        "name":"Audrey",
         "value": "Audrey"
     },
     {
         "id":"rattan_basket2",
-        "name":"rattan_basket",
+        "name":"Belinda",
         "value": "Belinda"
     },
     {
         "id":"rattan_basket3",
-        "name":"rattan_basket",
+        "name":"Catlana",
         "value": "Catlana"
     },
     {
         "id":"rattan_basket4",
-        "name":"rattan_basket",
+        "name":"Charlotte",
         "value": "Charlotte"
     },
     {
         "id":"rattan_basket5",
-        "name":"rattan_basket",
+        "name":"Francisca",
         "value": "Francisca"
     },
     {
         "id":"rattan_basket6",
-        "name":"rattan_basket",
+        "name":"Griet",
         "value": "Griet"
     },
     {
         "id":"rattan_basket7",
-        "name":"rattan_basket",
+        "name":"Henzie",
         "value": "Henzie"
     },
     {
         "id":"rattan_basket8",
-        "name":"rattan_basket",
+        "name":"Ingrid",
         "value": "Ingrid"
     },
     {
         "id":"rattan_basket9",
-        "name":"rattan_basket",
+        "name":"Lien",
         "value": "Lien"
     },
     {
         "id":"rattan_basket10",
-        "name":"rattan_basket",
+        "name":"Lina",
         "value": "Lina"
     },
     {
@@ -56,12 +56,12 @@
     },
     {
         "id":"rattan_basket12",
-        "name":"rattan_basket",
+        "name":"Wilhemina",
         "value": "Wilhemina"
     },
     {
         "id":"rattan_basket13",
-        "name":"rattan_basket",
+        "name":"Wilma",
         "value": "Wilma"
     }
 ]

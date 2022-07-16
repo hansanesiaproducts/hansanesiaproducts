@@ -1,27 +1,27 @@
 [
     {
         "id":"Springe1",
-        "name":"Springe",
+        "name":"Springe-1",
         "value": "Springe1"
     },
     {
         "id":"Springe2",
-        "name":"Springe",
+        "name":"Springe-2",
         "value": "Springe2"
     },
     {
         "id":"Springe3",
-        "name":"Springe",
+        "name":"Springe-3",
         "value": "Springe3"
     },
     {
         "id":"Springe4",
-        "name":"Springe",
+        "name":"Springe-4",
         "value": "Springe4"
     },
     {
         "id":"Springe5",
-        "name":"Springe",
+        "name":"Springe-5",
         "value": "Springe5"
     }
 ]

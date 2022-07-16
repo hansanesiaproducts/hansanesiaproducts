@@ -1,5 +1,7 @@
 import classes from "./AboutMain.module.css";
 import tes from "./herotes.jpg";
+import foto1 from "./foto1.jpg";
+
 const AboutMain = () => {
   return (
     <section className={classes.aboutSection}>
@@ -21,7 +23,7 @@ const AboutMain = () => {
             </p>
           </div>
           <div className={classes.imageContainer}>
-            <img src={tes} alt="ERR" />
+            <img src={foto1} alt="ERR" />
           </div>
         </div>
       </div>

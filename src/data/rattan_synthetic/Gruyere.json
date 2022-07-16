@@ -1,22 +1,22 @@
 [
     {
         "id":"Gruyere1",
-        "name":"Gruyere",
+        "name":"Gruyere-1",
         "value": "Gru1"
     },
     {
         "id":"Gruyere2",
-        "name":"Gruyere",
+        "name":"Gruyere-2",
         "value": "Gru2"
     },
     {
         "id":"Gruyere3",
-        "name":"Gruyere",
+        "name":"Gruyere-3",
         "value": "Gru3"
     },
     {
         "id":"Gruyere4",
-        "name":"Gruyere",
+        "name":"Gruyere-4",
         "value": "Gru4"
     }
 ]

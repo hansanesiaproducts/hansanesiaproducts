@@ -2,7 +2,10 @@ import classes from "./HeroCarousel.module.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 
-import tes from "./herotes.jpg";
+import foto1 from "./foto1.jpg";
+import foto2 from "./foto2.jpg";
+import foto3 from "./foto3.jpg";
+import foto4 from "./foto4.jpg";
 const HeroCarousel = () => {
   return (
     <Splide
@@ -22,16 +25,16 @@ const HeroCarousel = () => {
       }}
     >
       <SplideSlide className={classes.mainCarouselContainer}>
-        <img src={tes} alt="" className={classes.carouselImage} />
+        <img src={foto1} alt="" className={classes.carouselImage} />
       </SplideSlide>
       <SplideSlide className={classes.mainCarouselContainer}>
-        <img src={tes} alt="" className={classes.carouselImage} />
+        <img src={foto2} alt="" className={classes.carouselImage} />
       </SplideSlide>
       <SplideSlide className={classes.mainCarouselContainer}>
-        <img src={tes} alt="" className={classes.carouselImage} />
+        <img src={foto3} alt="" className={classes.carouselImage} />
       </SplideSlide>
       <SplideSlide className={classes.mainCarouselContainer}>
-        <img src={tes} alt="" className={classes.carouselImage} />
+        <img src={foto4} alt="" className={classes.carouselImage} />
       </SplideSlide>
     </Splide>
   );

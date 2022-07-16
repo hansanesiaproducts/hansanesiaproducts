@@ -1,109 +1,107 @@
 [
     {
         "id":"rattan_mirror1",
-        "name":"rattan_mirror",
+        "name":"MR001",
         "value": "MR001"
     },
     {
         "id":"rattan_mirror2",
-        "name":"rattan_mirror",
+        "name":"MR002",
         "value": "MR002"
     },
     {
         "id":"rattan_mirror3",
-        "name":"rattan_mirror",
+        "name":"MR003",
         "value": "MR003"
     },
     {
         "id":"rattan_mirror4",
-        "name":"rattan_mirror",
+        "name":"MR004",
         "value": "MR004"
     },
     {
         "id":"rattan_mirror5",
-        "name":"rattan_mirror",
+        "name":"MR005",
         "value": "MR005"
     },
     {
         "id":"rattan_mirror6",
-        "name":"rattan_mirror",
+        "name":"MR006",
         "value": "MR006"
     },
     {
         "id":"rattan_mirror7",
-        "name":"rattan_mirror",
+        "name":"MR007",
         "value": "MR007"
     },
     {
         "id":"rattan_mirror8",
-        "name":"rattan_mirror",
+        "name":"MR008",
         "value": "MR008"
     },
     {
         "id":"rattan_mirror9",
-        "name":"rattan_mirror",
+        "name":"MR009",
         "value": "MR009"
     },
     {
         "id":"rattan_mirror10",
-        "name":"rattan_mirror",
+        "name":"MR010",
         "value": "MR010"
     },
     {
         "id":"rattan_mirror11",
-        "name":"rattan_mirror",
+        "name":"MR011",
         "value": "MR011"
     },
-
-
     {
         "id":"rattan_mirror12",
-        "name":"rattan_mirror",
+        "name":"MR012",
         "value": "MR012"
     },
     {
         "id":"rattan_mirror13",
-        "name":"rattan_mirror",
+        "name":"MR013",
         "value": "MR013"
     },
     {
         "id":"rattan_mirror14",
-        "name":"rattan_mirror",
+        "name":"MR014",
         "value": "MR014"
     },
     {
         "id":"rattan_mirror15",
-        "name":"rattan_mirror",
+        "name":"MR015",
         "value": "MR015"
     },
     {
         "id":"rattan_mirror16",
-        "name":"rattan_mirror",
+        "name":"MR016",
         "value": "MR016"
     },
     {
         "id":"rattan_mirror17",
-        "name":"rattan_mirror",
+        "name":"MR017",
         "value": "MR017"
     },
     {
         "id":"rattan_mirror18",
-        "name":"rattan_mirror",
+        "name":"MR018",
         "value": "MR018"
     },
     {
         "id":"rattan_mirror19",
-        "name":"rattan_mirror",
+        "name":"MR019",
         "value": "MR019"
     },
     {
         "id":"rattan_mirror20",
-        "name":"rattan_mirror",
+        "name":"MR020",
         "value": "MR020"
     },
     {
         "id":"rattan_mirror21",
-        "name":"rattan_mirror",
+        "name":"MR021",
         "value": "MR021"
     }
 ]

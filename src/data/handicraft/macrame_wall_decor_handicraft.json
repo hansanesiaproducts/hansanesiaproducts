@@ -1,119 +1,117 @@
 [
     {
         "id":"macrame_wall_decor_handicraft1",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Double Rack",
         "value": "Double_Rack"
     },
     {
         "id":"macrame_wall_decor_handicraft2",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Dream Catcher",
         "value": "Dream_Catcher"
     },
     {
         "id":"macrame_wall_decor_handicraft3",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Dream Catcher Blue and White",
         "value": "Dream_Catcher_Blue_and_White"
     },
     {
         "id":"macrame_wall_decor_handicraft4",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Dream Catcher Leaf",
         "value": "Dream_Catcher_Leaf"
     },
     {
         "id":"macrame_wall_decor_handicraft5",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Dream Catcher Lilac White",
         "value": "Dream_Catcher_Lilac_White"
     },
     {
         "id":"macrame_wall_decor_handicraft6",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Dream Catcher Moon",
         "value": "Dream_Catcher_Moon"
     },
     {
         "id":"macrame_wall_decor_handicraft7",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Dream Catcher Rainbow",
         "value": "Dream_Catcher_Rainbow"
     },
     {
         "id":"macrame_wall_decor_handicraft8",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Dream Catcher Star",
         "value": "Dream_Catcher_Star"
     },
     {
         "id":"macrame_wall_decor_handicraft9",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Herd Double",
         "value": "Herd_Double"
     },
     {
         "id":"macrame_wall_decor_handicraft10",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Herd Macrame Wajik",
         "value": "Herd_Macrame_Wajik"
     },
     {
         "id":"macrame_wall_decor_handicraft11",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Herd Manik",
         "value": "Herd_Manik"
     },
-
-
     {
         "id":"macrame_wall_decor_handicraft12",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Herd Manik Limas",
         "value": "Herd_Manik_Limas"
     },
     {
         "id":"macrame_wall_decor_handicraft13",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Herd Rumbai",
         "value": "Herd_Rumbai"
     },
     {
         "id":"macrame_wall_decor_handicraft14",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Herd Triangle",
         "value": "Herd_Triangle"
     },
     {
         "id":"macrame_wall_decor_handicraft15",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Macrame Hanger",
         "value": "Macrame_Hanger"
     },
     {
         "id":"macrame_wall_decor_handicraft16",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Macrame Herd Flower",
         "value": "Macrame_Herd_Flower"
     },
     {
         "id":"macrame_wall_decor_handicraft17",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Macrame Mirror",
         "value": "Macrame_Mirror"
     },
     {
         "id":"macrame_wall_decor_handicraft18",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Macrame Mustard Brown",
         "value": "Macrame_Mustard_Brown"
     },
     {
         "id":"macrame_wall_decor_handicraft19",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Macrame Rainbow",
         "value": "Macrame_Rainbow"
     },
     {
         "id":"macrame_wall_decor_handicraft20",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Macrame Wall Hanging",
         "value": "Macrame_Wall_Hanging"
     },
     {
         "id":"macrame_wall_decor_handicraft21",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Macrame Wall Hanging Flower",
         "value": "Macrame_Wall_Hanging_Flower"
     },
     {
         "id":"macrame_wall_decor_handicraft22",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Macrame Wall Hanging-2",
         "value": "Macrame_Wall_Hanging2"
     },
     {
         "id":"macrame_wall_decor_handicraft23",
-        "name":"macrame_wall_decor_handicraft",
+        "name":"Macramme Mirror Leaf",
         "value": "Macramme_Mirror_Leaf"
     }
 ]

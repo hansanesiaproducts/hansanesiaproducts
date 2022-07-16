@@ -1,27 +1,27 @@
 [
     {
         "id":"Lisbon1",
-        "name":"Lisbon",
+        "name":"Lisbon-1",
         "value": "Lisbon1"
     },
     {
         "id":"Lisbon2",
-        "name":"Lisbon",
+        "name":"Lisbon-2",
         "value": "Lisbon2"
     },
     {
         "id":"Lisbon3",
-        "name":"Lisbon",
+        "name":"Lisbon-3",
         "value": "Lisbon3"
     },
     {
         "id":"Lisbon4",
-        "name":"Lisbon",
+        "name":"Lisbon-4",
         "value": "Lisbon4"
     },
     {
         "id":"Lisbon5",
-        "name":"Lisbon",
+        "name":"Lisbon-5",
         "value": "Lisbon5"
     }
 ]

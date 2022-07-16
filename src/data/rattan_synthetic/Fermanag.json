@@ -1,27 +1,27 @@
 [
     {
         "id":"Fermanag1",
-        "name":"Fermanag",
+        "name":"Fermanag-1",
         "value": "Ferm1"
     },
     {
         "id":"Fermanag2",
-        "name":"Fermanag",
+        "name":"Fermanag-2",
         "value": "Ferm2"
     },
     {
         "id":"Fermanag3",
-        "name":"Fermanag",
+        "name":"Fermanag-3",
         "value": "Ferm3"
     },
     {
         "id":"Fermanag4",
-        "name":"Fermanag",
+        "name":"Fermanag-4",
         "value": "Ferm4"
     },
     {
         "id":"Fermanag5",
-        "name":"Fermanag",
+        "name":"Fermanag-5",
         "value": "Ferm5"
     }
 ]
