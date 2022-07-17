@@ -1,42 +1,42 @@
 [
     {
         "id":"Dining1",
-        "name":"Berka1",
+        "name":"Berka",
         "value": "Berka1"
     },
     {
         "id":"Dining2",
-        "name":"Casper1",
+        "name":"Casper",
         "value": "Casper1"
     },
     {
         "id":"Dining3",
-        "name":"Halver1",
+        "name":"Halver",
         "value": "Halver1"
     },
     {
         "id":"Dining4",
-        "name":"Herten1",
+        "name":"Herten",
         "value": "Herten1"
     },
     {
         "id":"Dining5",
-        "name":"Jever1",
+        "name":"Jever",
         "value": "Jever1"
     },
     {
         "id":"Dining6",
-        "name":"Laredo1",
+        "name":"Laredo",
         "value": "Laredo1"
     },
     {
         "id":"Dining7",
-        "name":"Morelio1",
+        "name":"Morelio",
         "value": "Morelio1"
     },
     {
         "id":"Dining8",
-        "name":"Stein1",
+        "name":"Stein",
         "value": "Stein1"
     }
 ]

@@ -1,27 +1,27 @@
 [
     {
         "id":"Matamoros1",
-        "name":"Matamoros-1",
+        "name":"Matamoros 1",
         "value": "Mata1"
     },
     {
         "id":"Matamoros2",
-        "name":"Matamoros-2",
+        "name":"Matamoros 2",
         "value": "Mata2"
     },
     {
         "id":"Matamoros3",
-        "name":"Matamoros-3",
+        "name":"Matamoros 3",
         "value": "Mata3"
     },
     {
         "id":"Matamoros4",
-        "name":"Matamoros-4",
+        "name":"Matamoros 4",
         "value": "Mata4"
     },
     {
         "id":"Matamoros5",
-        "name":"Matamoros-5",
+        "name":"Matamoros 5",
         "value": "Mata5"
     }
 ]

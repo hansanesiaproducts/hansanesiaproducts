@@ -1,27 +1,27 @@
 [
     {
         "id":"Victoria1",
-        "name":"Victoria-1",
+        "name":"Victoria 1",
         "value": "Victoria1"
     },
     {
         "id":"Victoria2",
-        "name":"Victoria-2",
+        "name":"Victoria 2",
         "value": "Victoria2"
     },
     {
         "id":"Victoria3",
-        "name":"Victoria-3",
+        "name":"Victoria 3",
         "value": "Victoria3"
     },
     {
         "id":"Victoria4",
-        "name":"Victoria-4",
+        "name":"Victoria 4",
         "value": "Victoria4"
     },
     {
         "id":"Victoria5",
-        "name":"Victoria-5",
+        "name":"Victoria 5",
         "value": "Victoria5"
     }
 ]

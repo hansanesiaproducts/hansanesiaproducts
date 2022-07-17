@@ -1,17 +1,17 @@
 [
     {
         "id":"Prato1",
-        "name":"Prato-1",
+        "name":"Prato 1",
         "value": "Prato1"
     },
     {
         "id":"Prato2",
-        "name":"Prato-2",
+        "name":"Prato 2",
         "value": "Prato2"
     },
     {
         "id":"Prato3",
-        "name":"Prato-3",
+        "name":"Prato 3",
         "value": "Prato3"
     }
 ]

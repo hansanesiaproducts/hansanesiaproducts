@@ -1,12 +1,12 @@
 [
     {
         "id":"Oxford1",
-        "name":"Oxford-1",
+        "name":"Oxford 1",
         "value": "Oxford1"
     },
     {
         "id":"Oxford2",
-        "name":"Oxford-2",
+        "name":"Oxford 2",
         "value": "Oxford2"
     }
 ]
