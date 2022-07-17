@@ -1,22 +1,22 @@
 [
     {
         "id":"San_Fransisco1",
-        "name":"San_Fransisco-1",
+        "name":"San Fransisco-1",
         "value": "SF1"
     },
     {
         "id":"San_Fransisco2",
-        "name":"San_Fransisco-2",
+        "name":"San Fransisco-2",
         "value": "SF2"
     },
     {
         "id":"San_Fransisco3",
-        "name":"San_Fransisco-3",
+        "name":"San Fransisco-3",
         "value": "SF3"
     },
     {
         "id":"San_Fransisco4",
-        "name":"San_Fransisco-4",
+        "name":"San Fransisco-4",
         "value": "SF4"
     }
 ]
