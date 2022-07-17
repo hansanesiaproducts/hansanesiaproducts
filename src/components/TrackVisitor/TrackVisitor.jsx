@@ -51,7 +51,7 @@ const TrackVisitor = (props) => {
     }
   };
   const setCookies = () => {
-    document.cookie = "user_check=1";
+    document.cookie = "user_check=1; expires=Fri, 31 Dec 9999 23:59:59 GMT";
   };
   const getCookie = (cname) => {
     let name = cname + "=";
