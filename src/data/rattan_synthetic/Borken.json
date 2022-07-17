@@ -1,32 +1,32 @@
 [
     {
         "id":"Borken1",
-        "name":"Borken",
+        "name":"Borken-1",
         "value": "Borken1"
     },
     {
         "id":"Borken2",
-        "name":"Borken",
+        "name":"Borken-2",
         "value": "Borken2"
     },
     {
         "id":"Borken3",
-        "name":"Borken",
+        "name":"Borken-3",
         "value": "Borken3"
     },
     {
         "id":"Borken4",
-        "name":"Borken",
+        "name":"Borken-4",
         "value": "Borken4"
     },
     {
         "id":"Borken5",
-        "name":"Borken",
+        "name":"Borken-5",
         "value": "Borken5"
     },
     {
         "id":"Borken6",
-        "name":"Borken",
+        "name":"Borken-6",
         "value": "Borken6"
     }
 ]
