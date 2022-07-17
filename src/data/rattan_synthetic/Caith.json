@@ -1,22 +1,22 @@
 [
     {
         "id":"Caith1",
-        "name":"Caith-1",
+        "name":"Caith 1",
         "value": "Caith1"
     },
     {
         "id":"Caith2",
-        "name":"Caith-2",
+        "name":"Caith 2",
         "value": "Caith2"
     },
     {
         "id":"Caith3",
-        "name":"Caith-3",
+        "name":"Caith 3",
         "value": "Caith3"
     },
     {
         "id":"Caith4",
-        "name":"Caith-4",
+        "name":"Caith 4",
         "value": "Caith4"
     }
 ]

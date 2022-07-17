@@ -1,17 +1,17 @@
 [
     {
         "id":"Zapopan1",
-        "name":"Zapopan-1",
+        "name":"Zapopan 1",
         "value": "Zapopan1"
     },
     {
         "id":"Zapopan2",
-        "name":"Zapopan-2",
+        "name":"Zapopan 2",
         "value": "Zapopan2"
     },
     {
         "id":"Zapopan3",
-        "name":"Zapopan-3",
+        "name":"Zapopan 3",
         "value": "Zapopan3"
     }
 ]

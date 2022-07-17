@@ -1,27 +1,27 @@
 [
     {
         "id":"Tonala1",
-        "name":"Tonala-1",
+        "name":"Tonala 1",
         "value": "Tonala1"
     },
     {
         "id":"Tonala2",
-        "name":"Tonala-2",
+        "name":"Tonala 2",
         "value": "Tonala2"
     },
     {
         "id":"Tonala3",
-        "name":"Tonala-3",
+        "name":"Tonala 3",
         "value": "Tonala3"
     },
     {
         "id":"Tonala4",
-        "name":"Tonala-4",
+        "name":"Tonala 4",
         "value": "Tonala4"
     },
     {
         "id":"Tonala5",
-        "name":"Tonala-5",
+        "name":"Tonala 5",
         "value": "Tonala5"
     }
 ]

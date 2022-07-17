@@ -1,22 +1,22 @@
 [
     {
         "id":"Meilen1",
-        "name":"Meilen-1",
+        "name":"Meilen 1",
         "value": "Meilen1"
     },
     {
         "id":"Meilen2",
-        "name":"Meilen-2",
+        "name":"Meilen 2",
         "value": "Meilen2"
     },
     {
         "id":"Meilen3",
-        "name":"Meilen-3",
+        "name":"Meilen 3",
         "value": "Meilen3"
     },
     {
         "id":"Meilen4",
-        "name":"Meilen-4",
+        "name":"Meilen 4",
         "value": "Meilen4"
     }
 ]

@@ -1,27 +1,27 @@
 [
     {
         "id":"Guadeloupe1",
-        "name":"Guadeloupe-1",
+        "name":"Guadeloupe 1",
         "value": "Gua1"
     },
     {
         "id":"Guadeloupe2",
-        "name":"Guadeloupe-2",
+        "name":"Guadeloupe 2",
         "value": "Gua2"
     },
     {
         "id":"Guadeloupe3",
-        "name":"Guadeloupe-3",
+        "name":"Guadeloupe 3",
         "value": "Gua3"
     },
     {
         "id":"Guadeloupe4",
-        "name":"Guadeloupe-4",
+        "name":"Guadeloupe 4",
         "value": "Gua4"
     },
     {
         "id":"Guadeloupe5",
-        "name":"Guadeloupe-5",
+        "name":"Guadeloupe 5",
         "value": "Gua5"
     }
 ]

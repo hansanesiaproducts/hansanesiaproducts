@@ -1,32 +1,32 @@
 [
     {
         "id":"Galicia1",
-        "name":"Galicia-1",
+        "name":"Galicia 1",
         "value": "Galicia1"
     },
     {
         "id":"Galicia2",
-        "name":"Galicia-2",
+        "name":"Galicia 2",
         "value": "Galicia2"
     },
     {
         "id":"Galicia3",
-        "name":"Galicia-3",
+        "name":"Galicia 3",
         "value": "Galicia3"
     },
     {
         "id":"Galicia4",
-        "name":"Galicia-4",
+        "name":"Galicia 4",
         "value": "Galicia4"
     },
     {
         "id":"Galicia5",
-        "name":"Galicia-5",
+        "name":"Galicia 5",
         "value": "Galicia5"
     },
     {
         "id":"Galicia6",
-        "name":"Galicia-6",
+        "name":"Galicia 6",
         "value": "Galicia6"
     }
 ]

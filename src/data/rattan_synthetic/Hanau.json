@@ -1,27 +1,27 @@
 [
     {
         "id":"Hanau1",
-        "name":"Hanau-1",
+        "name":"Hanau 1",
         "value": "Hanau1"
     },
     {
         "id":"Hanau2",
-        "name":"Hanau-2",
+        "name":"Hanau 2",
         "value": "Hanau2"
     },
     {
         "id":"Hanau3",
-        "name":"Hanau-3",
+        "name":"Hanau 3",
         "value": "Hanau3"
     },
     {
         "id":"Hanau4",
-        "name":"Hanau-4",
+        "name":"Hanau 4",
         "value": "Hanau4"
     },
     {
         "id":"Hanau5",
-        "name":"Hanau-5",
+        "name":"Hanau 5",
         "value": "Hanau5"
     }
 ]
