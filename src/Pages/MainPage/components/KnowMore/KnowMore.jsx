@@ -1,11 +1,13 @@
 import classes from "./KnowMore.module.css";
 import { Link } from "react-router-dom";
 import tes from "./herotes.jpg";
+import foto1 from "./foto1.jpg";
+
 const KnowMore = () => {
   return (
     <section className={classes.knowMoreContainer}>
       <div className={classes.imageContainer}>
-        <img src={tes} alt="ERR" />
+        <img src={foto1} alt="ERR" />
       </div>
       <div className={classes.contentContainer}>
         <p>
