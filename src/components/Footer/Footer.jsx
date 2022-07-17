@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
 import classes from "./Footer.module.css";
 
-import facebookIcon from "../../assets/icons/facebook.png";
-import instagramIcon from "../../assets/icons/instagram.png";
-
 const Footer = (props) => {
   // Splide JS
   const { totalVisitor } = props;
@@ -52,14 +49,6 @@ const Footer = (props) => {
             <h5>
               Copyright &copy; 2022 HANSANESIA PRODUCTS, All rights Reserved.
             </h5>
-          </div>
-          <div className={classes.socialsContainer}>
-            <a href="dw">
-              <img src={instagramIcon} alt="ERR" />
-            </a>
-            <a href="dw">
-              <img src={facebookIcon} alt="ERR" />
-            </a>
           </div>
         </div>
       </div>

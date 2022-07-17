@@ -1,8 +1,7 @@
 import classes from "./ContactMain.module.css";
 import email from "../../../../assets/icons/email.png";
 import phone from "../../../../assets/icons/phone.png";
-import instagram from "../../../../assets/icons/instagram.png";
-import companyLogo from "../../../../assets/company/companyLogo.png"
+import companyLogo from "../../../../assets/company/companyLogo.png";
 
 const ContactMain = () => {
   return (
@@ -14,8 +13,8 @@ const ContactMain = () => {
             <img src={companyLogo} alt="logo hansanesia" />
             <h2>PT. Wilargo Inti Manunggal</h2>
             <address>
-              Villa Melati Mas Blok H1 No. 26, <br/>
-               Jelupang, Serpong Utara, Tangerang Selatan
+              Villa Melati Mas Blok H1 No. 26, <br />
+              Jelupang, Serpong Utara, Tangerang Selatan
             </address>
           </div>
           <div className={classes.socialsContainer}>
@@ -23,10 +22,6 @@ const ContactMain = () => {
               <li>
                 <img src={email} alt="ERR" />
                 <a href="mailto:hansanesia@yahoo.com">hansanesia@yahoo.com</a>
-              </li>
-              <li>
-                <img src={instagram} alt="ERR" />
-                <a href="https://instagram.com">@hansanesia</a>
               </li>
               <li>
                 <img src={phone} alt="ERR" />
