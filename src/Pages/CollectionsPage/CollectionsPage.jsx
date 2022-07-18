@@ -54,7 +54,9 @@ const CollectionsPage = () => {
         <div>
           <section className={classes.mainCollectionSection}>
             <h1 className={classes.mainTitle}>{collectionName} Collection</h1>
+            <div className={classes.mainImageContainer}>
             <img src={mainImage} alt="ERR" />
+            </div>
           </section>
           <section className={classes.ProductCardListSection}>
             <div className={classes.ProductCardListContainer}>

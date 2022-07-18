@@ -1,5 +1,7 @@
 .sendEmailSection {
-  background-image: url("../../../../assets/pictures/sofa.jpg");
+  background: linear-gradient(rgba(52, 52, 52, 0.4), rgba(52, 52, 52, 0.4)), url("./foto1.jpg");
+  /* background-image: url("./foto1.jpg"); */
+  /* background-image: url("./foto1.jpg"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -18,10 +20,12 @@
 
 .sendEmailContainer h1 {
   margin-bottom: 15px;
+  color: var(--cream);
 }
 
 .sendEmailContainer h4 {
   margin-bottom: 10px;
+  color: var(--cream);
 }
 .emailOuterContainer {
   width: 100%;

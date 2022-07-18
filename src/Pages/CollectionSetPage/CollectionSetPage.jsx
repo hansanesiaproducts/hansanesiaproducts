@@ -70,7 +70,9 @@ const CollectionSetPage = () => {
             <h1 className={classes.mainTitle}>
               {collectionName} - {collectionSetName}
             </h1>
+            <div className={classes.mainImageContainer}>
             <img src={mainImage} alt="ERR" />
+            </div>
           </section>
           <section className={classes.ProductCardListSection}>
             <div className={classes.ProductCardListContainer}>

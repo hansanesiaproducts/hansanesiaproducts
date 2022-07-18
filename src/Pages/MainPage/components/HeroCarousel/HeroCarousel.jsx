@@ -9,6 +9,7 @@ import foto4 from "./foto4.jpg";
 const HeroCarousel = () => {
   return (
     <Splide
+      className={classes.carousel}
       options={{
         rewind: true,
         perPage: 1,

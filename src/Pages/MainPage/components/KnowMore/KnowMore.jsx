@@ -11,10 +11,9 @@ const KnowMore = () => {
       </div>
       <div className={classes.contentContainer}>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis
-          incidunt tempore mollitia nostrum maiores assumenda inventore sint,
-          fuga nisi corrupti vero provident ipsum quisquam optio ullam iure
-          consectetur corporis eum?
+          Randy & Brandon Outdoor Living is manufacturer and exporter 
+          Outdoor Furniture in Indonesia since 1992 who produce high quality 
+          furniture using plantation teak wood and rattan synthetic material.
         </p>
         <Link to={"/about"}>Know more</Link>
       </div>

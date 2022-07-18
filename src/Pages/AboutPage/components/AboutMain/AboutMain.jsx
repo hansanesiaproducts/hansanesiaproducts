@@ -10,16 +10,15 @@ const AboutMain = () => {
         <div className={classes.aboutInnerContainer}>
           <div className={classes.contentContainer}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              tempora aliquam omnis laudantium, quibusdam, sapiente maxime eum
-              quisquam vero, quidem molestias libero expedita placeat. Incidunt
-              quisquam tempore quos officiis dolor?
+              Randy &amp; Brandon Outdoor Living is manufacturer and exporter Outdoor Furniture in Indonesia since
+              1992 who produce high quality furniture using plantation teak wood and rattan synthetic material.
+              We work exclusively with international wholesalers, distributors, and retailers, as well customized
+              commercial projects with architectural developers. As manufacturer with in house design and
+              production team, we have earned a reputation for providing an innovative design and producing
+              high quality furniture. By handling all the process from manufacturing the component, assembling,
+              finishing, packing and stuffing we can assure that our clients get the best result for every aspect.
               <br />
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              tempora aliquam omnis laudantium, quibusdam, sapiente maxime eum
-              quisquam vero, quidem molestias libero expedita placeat. Incidunt
-              quisquam tempore quos officiis dolor?
+              We also accept domestic Indonesian hotel / Resort / Restaurant for project basis.
             </p>
           </div>
           <div className={classes.imageContainer}>

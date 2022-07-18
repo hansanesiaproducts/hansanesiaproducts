@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <div>
       <AboutMain />
-      <Misson />
+      {/* <Misson /> */}
     </div>
   );
 };
