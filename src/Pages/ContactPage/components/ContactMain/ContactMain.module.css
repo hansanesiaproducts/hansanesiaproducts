@@ -9,6 +9,7 @@
   margin-bottom: 30px;
   position: relative;
 }
+
 .mainTitle::after {
   position: absolute;
   display: block;
@@ -20,82 +21,115 @@
   height: 1px;
   border-bottom: 5px solid #ffedad;
 }
+
 .contactforLogo {
   display: flex;
 }
-.contactUsWrapperImage{
+
+.contactUsWrapperImage {
   display: flex;
   justify-content: flex;
-  align-items: center;
+  /* align-items: center; */
   margin-left: 20px;
-  
   /* background-color: black; */
 }
-.contactUsWrapperImage img{
-  width: 60px !important;
-  height: 60px;
+
+.contactUsWrapper {
+  display: flex;
 }
+
+.contactAddress{
+  margin-left: 20px;
+}
+
+.contactUsWrapper h6 {
+  font-size: 16px;
+}
+
+.contactUsWrapper address {
+  font-size: 12px;
+}
+
+.contactUsWrapperImage img {
+  width: 80px !important;
+  height: 80px;
+}
+
 .contactUsInnerContainer {
   display: flex;
   width: 100%;
 }
+
 .addressContainer {
   width: 50%;
 }
-.addressContainer img{
-  width: 200px;
+
+.addressContainer img {
+  width: 130px;
   margin-bottom: 15px;
 }
-.addressContainer h2{
+
+.addressContainer h2 {
   margin-bottom: 10px;
 }
-.addressContainer address{
-  line-height:30px;
+
+.addressContainer address {
+  line-height: 30px;
 }
+
 .socialsContainer {
   width: 50%;
 }
+
 .socialsContainer ul {
   list-style: none;
 }
+
 .socialsContainer ul li {
   list-style: none;
   display: flex;
   align-items: center;
   padding: 10px 0;
 }
+
 .socialsContainer ul li img {
   width: 70px;
   margin-right: 20px;
 }
+
 .socialsContainer ul li a {
   color: var(--gray);
 }
-@media screen and (max-width: 1100px){
+
+@media screen and (max-width: 1100px) {
   .socialsContainer ul li img {
     width: 60px;
     margin-right: 20px;
   }
 }
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 800px) {
   .contactUsInnerContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
   .contactforLogo {
     display: flex;
     flex-direction: column;
   }
-  .contactUsWrapperImage{
+
+  .contactUsWrapperImage {
     display: flex;
     flex-direction: column;
     justify-content: flex;
     align-items: flex-start;
     margin-left: 0;
   }
-  .contactUsWrapperImage img{
-    width: auto !important;
-    height: auto;
+
+  .contactUsWrapperImage img {
+    width: 60px !important;
+    height: 60px !important;
   }
 }
