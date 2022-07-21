@@ -71,12 +71,12 @@ const CollectionSetPage = () => {
               {collectionName} - {collectionSetName}
             </h1>
             <div className={classes.mainImageContainer}>
-            <img src={mainImage} alt="ERR" />
+              <img src={mainImage} alt="ERR" />
             </div>
           </section>
           <section className={classes.ProductCardListSection}>
             <div className={classes.ProductCardListContainer}>
-              <h1 className={classes.mainTitle}>Product Sets</h1>
+              <h1 className={classes.mainTitle}>Product Collections</h1>
               <ProductCardList
                 data={productsData}
                 collection={name}

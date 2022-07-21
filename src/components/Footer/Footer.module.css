@@ -54,7 +54,13 @@
   min-width: 150px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+}
+.counterFooterInnerContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 10px;
   border: 1px solid black;
 }
 .quickLinkContainer {
@@ -98,6 +104,9 @@
   .copyrightContainer h5 {
     font-size: 1rem;
     text-align: center;
+  }
+  .counterFooterContainer {
+    justify-content: flex-start;
   }
 }
 

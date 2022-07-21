@@ -36,9 +36,16 @@
 
 .contactUsWrapper {
   display: flex;
+
+  /* background-color: black; */
 }
 
-.contactAddress{
+.contactUsWrapperImage img {
+  width: 60px !important;
+  height: 60px;
+}
+
+.contactAddress {
   margin-left: 20px;
 }
 
@@ -109,6 +116,10 @@
 }
 
 @media screen and (max-width: 800px) {
+  .addressContainer {
+    width: 100%;
+  }
+
   .contactUsInnerContainer {
     display: flex;
     flex-direction: column;
