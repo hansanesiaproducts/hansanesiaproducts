@@ -39,8 +39,10 @@ const Footer = (props) => {
           </div>
         </div>
         <div className={classes.counterFooterContainer}>
-          <p>Counter: </p>
-          <p> {totalVisitor}</p>
+          <div className={classes.counterFooterInnerContainer}>
+            <p>Counter: </p>
+            <p> {totalVisitor}</p>
+          </div>
         </div>
       </div>
       <div className={classes.bottomFooterContainer}>

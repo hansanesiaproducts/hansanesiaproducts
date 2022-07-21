@@ -28,7 +28,7 @@
   margin-right: 15px;
 }
 .logoContainer img {
-  width: 200px;
+  width: 300px;
 }
 .hamburger {
   display: none;
@@ -79,6 +79,9 @@ a.active {
   }
   .headerContainer {
     position: relative;
+  }
+  .logoContainer img {
+    width: 200px;
   }
   .linkContainer ul {
     display: none;
